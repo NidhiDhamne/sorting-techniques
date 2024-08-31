@@ -64,6 +64,7 @@ To run this project locally, follow these steps:
 - **Merge Sort**: Divides the array into halves, sorts each half, and then merges the sorted halves.
 - **Quick Sort**: Selects a 'pivot' element and partitions the array into elements less than and greater than the pivot, then recursively sorts the partitions.
 
+![alt text](image.png)
 
 ## License
 
