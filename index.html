@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Techniques</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Techniques</h1>
+        <div class="controls">
+            <label for="algorithm">Select Sorting Algorithm:</label>
+            <select id="algorithm">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="selection">Selection Sort</option>
+                <option value="merge">Merge Sort</option>
+                <option value="quick">Quick Sort</option>
+            </select>
+        </div>
+        <div class="complexity-info">
+            <p><strong>Time Complexity:</strong> <span id="timeComplexity">O(n^2)</span></p>
+            <p><strong>Space Complexity:</strong> <span id="spaceComplexity">O(1)</span></p>
+            <p><strong>Time Taken:</strong> <span id="timeTaken">0 ms</span></p>
+        </div>
+        <div class="input-container">
+            <label for="arrayInput">Enter values to sort (comma-separated):</label>
+            <input type="text" id="arrayInput" placeholder="e.g., 5, 3, 8, 1, 2">
+        </div>
+        <button id="startBtn">Start Sorting</button>
+        <div class="array-container" id="arrayContainer"></div>
+        <div class="array-display">
+            <h3>Array Values:</h3>
+            <p id="arrayValues"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
